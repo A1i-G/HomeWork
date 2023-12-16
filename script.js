@@ -99,30 +99,34 @@
 // switch (isAdmin) {
 //  case NaN :
 //        console.log ('Deny');
-//        break;
+// //        break;
+// // }
+
+
+// let isAdmin = NaN
+// if (!isAdmin) {
+//     console.log(isAdmin);
+
 // }
+// num > 40 || user='Ali' 
 
-
-let isAdmin = NaN
-if (!isAdmin) {
-    console.log(isAdmin);
-
+let num = 22
+User = 'Ali'
+if (num > 20) {
+    console.log('no' || 'correct')
+}
+else if (User == "Ali") {
+    console.log('yes')
+}
+else {
+    console.log("error")
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log(9 || false || 'smth' );
+console.log("11" && true && 'smth' && null);
+console.log(undefined || false || ' ');
+console.log(91 || false || true || '');
 
 
 
