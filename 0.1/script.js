@@ -3,7 +3,7 @@
 
 
 // console.log(username1);
-// let username = "Nigger"
+// let username = "Nigar"
 // let username = "Metin"
 // // let username = "Ali"
 
@@ -107,26 +107,33 @@
 // if (!isAdmin) {
 //     console.log(isAdmin);
 
-// }
-// num > 40 || user='Ali' 
+// // }
+// // num > 40 || user='Ali' 
 
-let num = 22
+let num = '20'
 User = 'Ali'
-if (num > 20) {
-    console.log('no' || 'correct')
+if (num === 20) {
+    console.log(Symbol(22) || 'correct')
 }
 else if (User == "Ali") {
-    console.log('yes')
-}
-else {
-    console.log("error")
-}
+     console.log('yes')
+    }
+    else {
+            console.log("error")
+        }
+        
+        
+        
+        // console.log(9 || false || 'smth' );
+        // console.log("11" && true && 'smth' && null);
+        // console.log(undefined || false || '?');
+        // console.log(91 || false || true || '');
+        
+        
+        
 
 
-console.log(9 || false || 'smth' );
-console.log("11" && true && 'smth' && null);
-console.log(undefined || false || ' ');
-console.log(91 || false || true || '');
+                                                                                       
 
 
 
@@ -137,3 +144,25 @@ console.log(91 || false || true || '');
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
