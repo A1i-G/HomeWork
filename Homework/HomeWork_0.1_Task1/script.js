@@ -95,57 +95,71 @@
 
 // // console.log(arr2.slice(2, -1));
 
-// arr2.push = ('Rovshan')
-//
-// console.log(arr2)
+// arr2.unshift = ('Rovshan')
+// let rev4 =arr2.slice(0,3) + ',Rovhshan,' + arr2.slice(5)
+// console.log(rev4)
 
 // arr2.map(name => console.log(name));
 // console.log(name);
 
 // console.log(arr2.filter(name => name === 'Anar'));
 
+//  console.log(arr2.filter(name => name !== 'Anar')+',Perviz');
 
-// arr2.forEach((name, index) => {
-//     if (name === 'Anar') {
-//         arr2[index] = 'Perviz';
-//     }
-// });
-// console.log(arr2);
+// console.log(name);
 
 // console.log(arr2[arr2.length - 2]);
 
 // console.log(arr2.length);
 
 
-// // Task8
+// Task8
 
 // const arr3 = ["9", 10, 100, 11, 'true', 'undefined', true, null, 'something', false]
 
 // const numbers = arr3.filter(item => typeof item === 'number');
 // console.log(numbers);
 
-// const trueValues = arr3.filter(item => typeof item === 'boolean' && item === true);
-// console.log(trueValues);
+// const True = arr3.filter(item => typeof item === 'boolean' && item === true);
+// console.log(True);
 
-// const falseValues = arr3.filter(item => typeof item === 'boolean' && item === false);
-// console.log( falseValues);
+// const falsy = arr3.filter(item => typeof item === 'boolean' && item === false);
+// console.log(falsy);
 
 // const strings = arr3.filter(item => typeof item === 'string');
 // console.log(strings);
 
 
-// // Task8
+// // // Task8
 // const numbers = [1, 2, 4, 5, 3, 2, 5, 7, 8, 9, 11, 12, 22, 24, 25]
 
-// const evenNumbers = numbers.filter(number => number % 2 === 0);
-// console.log(evenNumbers);
+// const even = numbers.filter(number => number % 2 === 0);
+// console.log(even);
 
-// const oddNumbers = numbers.filter(number => number % 2 !== 0);
-// console.log(oddNumbers);
+// const odd = numbers.filter(number => number % 2 !== 0);
+// console.log(odd);
 
 // Task9
 
 const arr4 = [10, "29", 10, 100, 11, 'true', false, 'undefined', true, null, 'something', false]
+
+const rev1 = arr4.filter((item, index) => arr4 > 0)
+
+const rev2 = arr4.filter(value => value === true);
+
+console.log(rev1);
+console.log('True value :'+ rev2);
+
+const tcount = arr4.filter(value => value ==true).length;
+console.log(tcount);
+
+const stringcount = arr4.filter(item => item == item ).length;
+console.log(stringcount);
+
+const fcount = arr4.filter(item => item === false).length;
+console.log(fcount);
+
+
 
 // Task10
 
