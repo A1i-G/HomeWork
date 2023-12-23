@@ -95,7 +95,6 @@
 
 // // console.log(arr2.slice(2, -1));
 
-// arr2.unshift = ('Rovshan')
 // let rev4 =arr2.slice(0,3) + ',Rovhshan,' + arr2.slice(5)
 // console.log(rev4)
 
