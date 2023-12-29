@@ -119,7 +119,7 @@
 // const numbers = arr3.filter(item => typeof item === 'number');
 // console.log(numbers);
 
-// const True = arr3.filter(item => typeof item === 'boolean' && item === true);
+// const True = arr3.filter((item) => typeof item === 'boolean' && item === true);
 // console.log(True);
 
 // const falsy = arr3.filter(item => typeof item === 'boolean' && item === false);
@@ -140,27 +140,27 @@
 
 // Task9
 
-const arr4 = [10, "29", 10, 100, 11, 'true', false, 'undefined', true, null, 'something', false]
+// const arr4 = [10, "29", 10, 100, 11, 'true', false, 'undefined', true, null, 'something', false]
 
-const rev1 = arr4.filter((item, index) => arr4 > 0)
+// const rev1 = arr4.filter((item, index) => arr4 > 0)
 
-const rev2 = arr4.filter(value => value === true);
+// const rev2 = arr4.filter(value => value === true);
 
-console.log(rev1);
-console.log('True value :'+ rev2);
+// console.log(rev1);
+// console.log('True value :'+ rev2);
 
-const tcount = arr4.filter(value => value ==true).length;
-console.log(tcount);
+// const tcount = arr4.filter(value => value ==true).length;
+// console.log(tcount);
 
-const stringcount = arr4.filter(item => item == item ).length;
-console.log(stringcount);
+// const stringcount = arr4.filter(item => item == item ).length;
+// console.log(stringcount);
 
-const fcount = arr4.filter(item => item === false).length;
-console.log(fcount);
+// const fcount = arr4.filter(item => item === false).length;
+// console.log(fcount);
 
 
 
-// Task10
+// // Task10
 
 
 
