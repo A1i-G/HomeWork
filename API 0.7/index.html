@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <form class="myForm">
+      <label for="username">Username</label>
+      <input type="text" id="username" placeholder="Enter your name..." minlength="5" />
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Enter your email..." minlength="5"/>
+      <label for="password">Password</label>
+      <input type="text" id="password" placeholder="Enter your password..."  minlength="5"/>
+      <label for="confirmpassword">Confirm Password</label>
+      <input
+      type="text" id="confirmpassword" placeholder="Confirm your password..." minlength="5"/>
+      <label for="adminb">Admin?</label>
+      <input type="checkbox" id="adminb">
+      <button id="btnSubmit" disabled type="submit">Add User</button>
+    </form>
+    <script src="./script.js"></script>
+  </body>
+</html>
