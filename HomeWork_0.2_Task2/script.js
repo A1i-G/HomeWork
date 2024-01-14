@@ -8,7 +8,10 @@
 //     console.log( 'FullName '+name1[i]);
 // }
 
-let number1 = [4, 5, 2, 1, 5, 2, 5, 3, 5, 6, 2, 1, 6, 2, 6, 2, 5, 3, 2, 7, 4, 6, 4, 5, 6, 2, 5, 6, 3, 7, 3, 7];
+let number1 = [
+  4, 5, 2, 1, 5, 2, 5, 3, 5, 6, 2, 1, 6, 2, 6, 2, 5, 3, 2, 7, 4, 6, 4, 5, 6, 2,
+  5, 6, 3, 7, 3, 7,
+];
 
 // let reqem5 = 0;
 
@@ -35,7 +38,10 @@ let number1 = [4, 5, 2, 1, 5, 2, 5, 3, 5, 6, 2, 1, 6, 2, 6, 2, 5, 3, 2, 7, 4, 6,
 // let arr22 = number1.includes(name2);
 // console.log(`${arr22}`);
 
-// 9 ?
+// const task9 = number1.filter(number => number % 3 === 2);
+// for (let i = 0; i < task9.length; i++) {
+//     console.log(i);
+//   }
 
 // let index10 = [];
 // for (let i = 0; i <number1.length; i++){
@@ -53,7 +59,6 @@ let number1 = [4, 5, 2, 1, 5, 2, 5, 3, 5, 6, 2, 1, 6, 2, 6, 2, 5, 3, 2, 7, 4, 6,
 // }
 // console.log(`${index11.join(', ')}`);
 
-
 // let index9 = [];
 // for (let i = 0; i < number1.length; i++) {
 //   if (number1[i] === 5) {
@@ -63,9 +68,7 @@ let number1 = [4, 5, 2, 1, 5, 2, 5, 3, 5, 6, 2, 1, 6, 2, 6, 2, 5, 3, 2, 7, 4, 6,
 // console.log(index9.slice(6,9) + index9.slice(0,1));
 
 // let arr = [4, 5, 2, 5, 6, 2, 6, 2, 5, 3, 2, 7, 4, 6, 4, 5, 6, 2, 5, 6, 3, 7, 3, 7]
-
 // console.log(number1.length -arr.length);
-
 
 // let index24 = [];
 // for (let i = 0; i < number1.length; i++) {
@@ -78,74 +81,71 @@ let number1 = [4, 5, 2, 1, 5, 2, 5, 3, 5, 6, 2, 1, 6, 2, 6, 2, 5, 3, 2, 7, 4, 6,
 // }
 // console.log(sum24());
 
-
 let arr2 = [
-    {
-        name: 'test',
-        key: 1
-    },
-    {
-        name: 'task',
-        key: 2
-    },
-    {
-        name: 'tanqo',
-        key: 3
-    },
-    {
-        name: 'like',
-        key: 4
-    },
-    {
-        name: 'task',
-        key: 5
-    },
-    {
-        name: 'trust',
-        key: 6
-    },
-    {
-        name: 'test',
-        key: 7
-    },
-    {
-        name: 'last',
-        key: 8
-    },
-    {
-        name: 'tanqo',
-        key: 9
-    },
-    {
-        name: 'elephant',
-        key: 10
-    },
-    {
-        name: 'love',
-        key: 11
-    },
-    {
-        name: 'small',
-        key: 12
-    },
-    {
-        name: 'little',
-        key: 13
-    },
-]
+  {
+    name: "test",
+    key: 1,
+  },
+  {
+    name: "task",
+    key: 2,
+  },
+  {
+    name: "tanqo",
+    key: 3,
+  },
+  {
+    name: "like",
+    key: 4,
+  },
+  {
+    name: "task",
+    key: 5,
+  },
+  {
+    name: "trust",
+    key: 6,
+  },
+  {
+    name: "test",
+    key: 7,
+  },
+  {
+    name: "last",
+    key: 8,
+  },
+  {
+    name: "tanqo",
+    key: 9,
+  },
+  {
+    name: "elephant",
+    key: 10,
+  },
+  {
+    name: "love",
+    key: 11,
+  },
+  {
+    name: "small",
+    key: 12,
+  },
+  {
+    name: "little",
+    key: 13,
+  },
+];
 
 // function users1() {
 //     const result = arr2.filter(obj => obj.name.startsWith('t'));
 //     return result;
 // }
-
 // console.log(users1());
 
 // function users2() {
 //     const result = arr2.filter(obj => obj.name.startsWith('t'),);
 //     return result;
 // }
-
 // console.log(users2());
 
 // function users3() {
@@ -156,14 +156,12 @@ let arr2 = [
 
 // console.log(users3());
 
-
 // function users5() {
 //     const result = arr2.filter(obj => obj.name.startsWith('t'),);
 //     return result.reduce((sum, obj) => sum + obj.key, 0);
 
 // }
 // console.log(users5());
-
 
 // function users4() {
 //     const result = arr2.map(obj => {
@@ -174,7 +172,6 @@ let arr2 = [
 //     });
 //     return result;
 // }
-
 // console.log(users4());
 
 // function users6() {
@@ -184,26 +181,22 @@ let arr2 = [
 // }
 // // console.log(users6());
 
-
-
-// const longestNameIndex = arr2.reduce((maxIndex, obj, currentIndex) => {
+// function users11(){
+//     result = arr2.reduce((maxIndex, obj, currentIndex) => {
 //     if (obj.name.length > arr2[maxIndex].name.length) {
 //         return currentIndex;
 //     } else {
 //         return maxIndex;
 //     }
 // }, 0);
-
-// const squareOfIndex = longestNameIndex * longestNameIndex;
-
-// console.log(squareOfIndex);
-
+// return result * result;
+// }
+// console.log(users11());
 
 // function users10() {
 //     const result = arr2.filter(obj => obj.name.length ===4 );
 //     return result;
 // }
-
 // console.log(users10());
 
 // function users7() {
@@ -213,17 +206,15 @@ let arr2 = [
 // }
 // console.log(users7());
 
-// 24, 25 ?
+// function users12() {
+//     const result = arr2.filter(obj => obj.name.search('l'),);
+//      result2=result.length
+//      return result
+// }
+// console.log(users12());
 
-
-
-
-
-
-
-
-
-
-
-
-
+function users13() {
+  const result = arr2.filter((obj) => obj.name.search("t"));
+  return result.map(item => item.key);
+}
+console.log(users13());

@@ -39,5 +39,11 @@ app.post('/code/users', (req, res) => {
     res.send('User added successfully!')
 })
 
+app.put('/code/users', (req, res) => {
+    const { item1 } = req.params
+    users  += item1
+    res.send('User updated successfully!')
+})
+
 const PORT = process.env.PORT
 app.listen(PORT, () => console.log(`Server is running: http://localhost:${PORT}`.green.bold))
